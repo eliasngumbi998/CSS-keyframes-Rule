@@ -1,0 +1,2 @@
+# CSS-keyframes-Rule
+What is a @keyframes in CSS3? The @keyframes rule is used to create animations. In general, an animation in CSS3 is defined as changing from one CSS style to another.  Structure: @keyframes name { selector { styles ; } }  Property Values: name – it’s specifies the name of the animation. (required)  selector – it’s specifies that percentage of the animation duration.(required) Possible Value: 0 – 100% from (same as 0%) to (same as 100%)  styles - it’s specifies one or more CSS style properties.(required)
