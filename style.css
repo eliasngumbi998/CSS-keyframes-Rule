@@ -1,0 +1,44 @@
+<style type="text/css">
+ 
+div.animate {
+  width: 50px;
+  height: 50px;
+  color: white;
+  padding: 2px;
+  background: blue;
+  position: relative;
+}
+ 
+#test1 {
+  animation-name: boxmove;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  /* Firefox */
+  -moz-animation-name: boxmove;
+  -moz-animation-duration: 5s;
+  -moz-animation-iteration-count: infinite;
+  /* Safari and Google Chrome */
+  -webkit-animation-name: boxmove;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+}
+ 
+@keyframes boxmove
+{
+  from {left: 0px;}
+  to {left: 210px;}
+}
+ 
+@-moz-keyframes boxmove /* Firefox */
+{
+  from {left: 0px;}
+  to {left: 210px;}
+}
+ 
+@-webkit-keyframes boxmove /* Safari and Google Chrome */
+{
+  from {left: 0px;}
+  to {left: 210px;}
+}
+ 
+</style>
